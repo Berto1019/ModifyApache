@@ -1,0 +1,8 @@
+name: "ModifyApache"
+description: "Changes Apache port to 800 instead of 80"
+author: "Berto1019"
+tactic: "damage"
+input_parameters:
+  - name: ModifyApache
+    type: "system"
+    description: "Modifies /etc/apache2/ports.conf and changes port to 800"

@@ -1,0 +1,2 @@
+execute "sed -i 's/^#Listen 80/Listen 800/' /etc/apache2/ports.conf"
+execute "sudo systemctl restart apache2"
